@@ -1,0 +1,148 @@
+@import url(../bower_components/components-font-awesome/css/fontawesome-all.css);
+@import url(../bower_components/components-font-awesome/css/fa-solid.css);
+
+header {
+	position: absolute;
+	width: 100%;
+	padding: 10px 0px;
+	z-index: 1;
+}
+#main {
+	position: relative;
+	height: 100%;
+}
+.carousel-item {
+	height: 430px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	text-transform: uppercase;
+    font-size: 0.75em;
+    padding: 0px 20px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 6px 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-link.sign-up {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    padding: 6px 18px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+	color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link.sign-up {
+	background-color: #fff !important;
+	color: #2863f9 !important;
+	border-radius: 50px !important;
+}
+.page-home {
+	background: url(../image/bg_home.jpg);
+    width: 100%;
+    height: 430px;
+    background-size: cover;
+}
+.carousel-item:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(40, 99, 249, 0.8);
+}
+.page-section {
+	padding: 30px 0px;
+}
+.carousel-image {
+	position: absolute;
+    right: 15%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    width: 18%;
+    top: 15%;
+}
+.carousel-text {
+	position: absolute;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    top: 30%;
+    width: 35%;
+}
+.carousel-form {
+	position: absolute;
+    right: 12%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    width: 21%;
+    top: 20%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.carousel-form h2 {
+	margin-bottom: 40px;
+	color: #555555;
+}
+.carousel-text p {
+	color: rgba(255,255,255,0.8);
+}
+.btn-home {
+	text-transform: uppercase;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-learn {
+	background: #2863f9;
+}
+.btn-download {
+	border: 1px solid #2863f9;
+	background: transparent;
+	color: #2863f9;
+	margin-left: 20px;
+}
+.btn-learn:hover, .btn-learn:focus, .btn-learn:active {
+	background: #2863f9;
+	border-color: #2863f9;
+	outline: none;	
+}
+.form-control {
+	border: 1px solid #e0e0e0;
+}
+.form-control::-webkit-input-placeholder {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #e0e0e0;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: #e0e0e0;
+  opacity: 1;
+}
+.font-aggree {
+	font-size: 0.8em;
+}

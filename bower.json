@@ -1,0 +1,29 @@
+{
+  "name": "best-app",
+  "description": "SPA Angular JS",
+  "keywords": [
+    "Angular",
+    "Bower"
+  ],
+  "authors": "Suratno",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "angular": "*",
+    "angular-route": "*"
+  },
+  "devDependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "angular": "*",
+    "angular-route": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

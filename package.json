@@ -1,0 +1,24 @@
+{
+  "name": "beapp",
+  "version": "1.0.0",
+  "description": "SPA Angular JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suratno",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.14",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.5.0",
+    "gulp-inject": "^4.3.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.0",
+    "main-bower-files": "^2.13.1"
+  }
+}
